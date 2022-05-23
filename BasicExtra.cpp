@@ -66,7 +66,7 @@ void test3(void) {
 
 void test4(void) {
 	int sum = 0;
-	for(int i = 1 ; i <= 100 ; i++) {
+	for(int i = 1 ; i < 100 ; i++) {
 		if(i % 2 == 0) {
 			sum += i;
 		}
@@ -187,7 +187,7 @@ void test10() {
 }
 
 int main(void) {
-	test10();
+	test1();
 	return 0;
 } 
 
